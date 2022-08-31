@@ -1,5 +1,6 @@
 const React = require('react');
 const ReactDOMClient = require('react-dom/client');
+const DicodingLogo = require('./dicoding-logo.png');
 
 const element = (
   <div>
@@ -9,7 +10,7 @@ const element = (
       <li>Bidang: Education</li>
       <li>Tagline: Decode Ideas, Discover Potential.</li>
     </ul>
-    <img src="dicoding-logo.png" alt="Dicoding Logo" />
+    <img src={DicodingLogo} alt="Dicoding Logo" />
   </div>
 );
 
